@@ -1,7 +1,7 @@
 {
   "name": "date-simplified",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simplified version of the Date Object to include day and month names",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,7 +13,7 @@
   "keywords": [
     "date-simplified"
   ],
-  "author": "WessCoby",
+  "author": "WessCoby <cobygiven@gmail.com> (https://www.wesscoby.com)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/WessCoby/date-simplified/issues"
