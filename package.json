@@ -1,6 +1,6 @@
 {
   "name": "date-simplified",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "A simplified version of the Date Object to include day and month names",
   "main": "index.js",
   "scripts": {

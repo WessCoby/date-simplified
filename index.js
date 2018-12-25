@@ -1,4 +1,4 @@
-exports.date_time_breakdown = (time) => {
+module.exports = ((time) => {
 
     let add_leading_zero = (number) => {
         if (number <= 9) {
@@ -27,5 +27,8 @@ exports.date_time_breakdown = (time) => {
         get_time = () => `${get_hours()}:${get_minutes()}:${get_seconds()}`;
 
     // Return presentable results
-    return { get_full_date, get_time, get_date, get_day_name, get_month, get_month_name, get_year};
-};
+    return {
+        get_full_date, get_time, get_date,
+        get_day_name, get_month, get_month_name, get_year,
+        toLocaleString: () => time.toLocaleString()};
+})(new Date());
